@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+android:background="@color/colorBackround"
+    tools:context="com.metapp.goodmoods.PreviewActivity">
+
+    <ImageView
+        android:id="@+id/preview_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/menu_labels_right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="-2dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        fab:menu_backgroundColor="#ccffffff"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_set_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_lock"
+            fab:fab_size="mini"
+            fab:fab_label="LockScreen Background" />
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_set_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_home"
+            fab:fab_size="mini"
+            fab:fab_label="Home Background" />
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_set_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_done"
+            fab:fab_size="mini"
+            fab:fab_label="Set background" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_file"
+            fab:fab_size="mini"
+            fab:fab_label="Download" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_crop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_crop"
+            fab:fab_size="mini"
+            fab:fab_label="Crop" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/spin_kit"
+        style="@style/SpinKitView.Large.Circle"
+        android:layout_centerInParent="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        app:SpinKit_Color="@color/colorAccent" />
+
+</RelativeLayout>

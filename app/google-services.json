@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "453966202991",
+    "firebase_url": "https://good-moods-e985d.firebaseio.com",
+    "project_id": "good-moods-e985d",
+    "storage_bucket": "good-moods-e985d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453966202991:android:9b1c0fa12bd33ecde0259a",
+        "android_client_info": {
+          "package_name": "com.metapp.goodmoods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453966202991-ckng4cbmo6bspqsr2lu0qlcmpncc59in.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI_Abk88XFf4sG-T5_w_K75pNarVhabkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453966202991-ckng4cbmo6bspqsr2lu0qlcmpncc59in.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
