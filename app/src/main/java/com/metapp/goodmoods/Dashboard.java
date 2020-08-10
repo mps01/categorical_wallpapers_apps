@@ -69,7 +69,7 @@ public class Dashboard extends AppCompatActivity {
                                 startActivity(activity2Intent);
                             }*/
 
-                                Intent activity2Intent = new Intent(getApplicationContext(), MainActivity.class);
+                                Intent activity2Intent = new Intent(getApplicationContext(), pick.class);
                                 startActivity(activity2Intent);
                             /*  if(counter== 2){
                                 Intent activity2Intent = new Intent(getApplicationContext(), nature.class);
